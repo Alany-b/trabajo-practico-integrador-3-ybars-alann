@@ -18,7 +18,7 @@ const Navbar = ({ authStatus, onLogout }) => {
     <nav className="navbar navbar-expand navbar-dark bg-dark">
       <div className="container">
         <Link className="navbar-brand" to="/home">
-          José Tareas
+          ALAN Tareas
         </Link>
         <div className="navbar-nav ms-auto">
           {authStatus === "authenticated" ? (
